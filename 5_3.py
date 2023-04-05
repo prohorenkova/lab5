@@ -1,0 +1,5 @@
+week = ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sun', 'Sut')
+weekends = int(input('сколько выходных на неделе вы хотите?'))
+print('Weekends:', *week[:-weekends - 1:-1])
+print('Work days:', *week[:-weekends])
+print()
